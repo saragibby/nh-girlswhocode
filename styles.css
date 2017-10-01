@@ -1,0 +1,171 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  color: #13426b;
+}
+
+header {
+  background-color: #083961;
+  height: 9rem;
+  padding: 0.5rem 1.5rem;
+}
+
+header span {
+  font-size: 2rem;
+  color: #8171ab;
+}
+
+header img {
+  height: 5rem;
+}
+
+header hr {
+  border: none;
+  border-top: 0.25rem dotted #f26722;
+  height: 0.1rem;
+  width: 100%;
+  margin: 0.5rem 0 0 0;
+}
+
+header #social-media {
+  position: absolute;
+  right: 2rem;
+  top: 3.5rem;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+header #social-media a:link {
+  color: #CEDDDD;
+}
+
+header #social-media a:visited {
+  color: #CEDDDD;
+}
+
+header #social-media a:hover {
+  color: #EC5979;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+  color: #21A5A5;
+}
+
+p.about {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.important-news {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  padding: 1.5rem;
+  border: 0.25rem dotted #f26722;
+}
+
+h3.news-title {
+  position: relative;
+  top: 1.7rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+  margin: auto;
+  background-color: #fff;
+  width: 13rem;
+  color: #21A5A5;
+}
+
+.when-where {
+  flex: 50%;
+  padding-right: 4rem;
+}
+
+.location {
+  flex: 50%;
+}
+
+#map {
+  height: 17rem;
+  width: 100%;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: row;
+  background-color: #EC5979;
+  height: 20rem;
+  margin: 6rem 0;
+  padding: 2rem;
+}
+
+.about-item .info {
+  padding: 0 2rem;
+  flex: 1 6 30%;
+  text-align: center;
+}
+
+.about-item.left {
+  margin-left: 5%;
+}
+
+.about-item.right {
+  margin-right: 5%;
+}
+
+.about-item i {
+  font-size: 4rem;
+  color: #21A5A5;
+}
+
+.about-item h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.about-item p {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.about-item .image {
+  flex: 3 1 70%;
+  width: 100%;
+}
+
+.about-item .image {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-item .image.sisterhood {
+  background-image: url('images/sisterhood.jpg');
+  background-size: 90%;
+}
+
+.about-item .image.code {
+  background-image: url('images/write-code.jpg');
+  background-size: 100%;
+  background-position: center;
+}
+
+.about-item .image.impact {
+  background-image: url('images/girlswhocode-loop.jpg');
+  background-size: 90%;
+}

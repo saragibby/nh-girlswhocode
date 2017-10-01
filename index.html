@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Haven Girls Who Code</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <header>
+      <a href='http://www.girlswhocode.com' target="_blank">
+        <img src='images/girls-who-code.png' />
+      </a>
+      <hr />
+      <span>New Haven</span>
+
+      <div id='social-media'>
+        <ul>
+          <li>
+            <a href='https://www.facebook.com/NHGirlsWhoCode/' target='_blank'>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href='https://twitter.com/NHGirlsWhoCode' target='_blank'>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <h2>Closing the gender gap in tech, one girl at a time.</h2>
+    <p class='about'>
+      Computers and technology are everywhere! Everything from the thermostat,
+      to refrigerator, websites to your phone and computer all has code telling it
+      how to work. Making technology & coding jobs the fastest growing in the
+      country, yet girls are being left behind.
+      <br/><br/>
+      Girls Who Code is aiming to bring coding education to high school girls
+      in the New Haven area. Teaching them about Computer Science, and how to write
+      code allowing them to bring all their ideas to life. Opening up doors to
+      career opportunites they never knew possible.
+    </p>
+
+    <h3 class='news-title'>next event</h3>
+    <div class='important-news'>
+      <div class='when-where'>
+        <h3>Information Session</h3>
+        <p>
+          Join us to learn all about the Girls Who Code club starting here in
+          New Haven. We'll talk about the importance of computer science, what
+          coding is, and all the cool stuff you can create & build together!
+        </p>
+        <p><strong>Where:</strong> New Haven High School, Rm. 27</p>
+        <p><strong>Day:</strong> Tuesday Oct. 10, 2017</p>
+        <p><strong>Time:</strong> 2:30pm - 3:30pm</p>
+      </div>
+      <div class='location'>
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <div class='about-item left'>
+      <div class='info'>
+        <i class="fa fa-heart" aria-hidden="true"></i>
+        <h2>sisterhood</h2>
+        <p>
+          Club girls join a safe and supportive environment of peers & role
+          models and learn to see themselves as computer scientists. Beyond
+          the Club, girls can tap into an alumni network of tens of
+          thousands of girls across the country who are using computer
+          science to solve problems they care about.
+        </p>
+      </div>
+      <div class='image sisterhood'></div>
+    </div>
+
+    <div class='about-item right'>
+      <div class='image code'></div>
+      <div class='info'>
+        <i class="fa fa-code" aria-hidden="true"></i>
+        <h2>code</h2>
+        <p>
+          Club girls learn the concepts of loops, variables, conditionals,
+          and functions that form the basis for all programming languages —
+          whether they want to build a website, an app, or a robot.
+          Returning Clubs girls can deepen their programming knowledge
+          through extended activity sets.
+        </p>
+      </div>
+
+    </div>
+
+    <div class='about-item left'>
+      <div class='info'>
+        <i class="fa fa-cogs" aria-hidden="true"></i>
+        <h2>impact</h2>
+        <p>
+          Club girls work in teams to design and build a Computer Science
+          “CS” Impact Project that solves real world problems they care
+          about through code.
+        </p>
+      </div>
+      <div class='image impact'></div>
+    </div>
+
+    <footer>
+      <script>
+        function initMap() {
+          var uluru = {lat: 42.725493, lng: -82.790819};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 11,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtKvW9QFvhQBb_0qxgE0DxGAfRDYITBqg&callback=initMap">
+      </script>
+    </footer>
+
+  </body>
+
+</html>
