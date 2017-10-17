@@ -183,7 +183,7 @@ h3.news-title {
   width: 100%;
 }
 
-.slides {
+#calendar, .slides {
   margin-bottom: 5rem;
 }
 
