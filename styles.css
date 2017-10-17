@@ -34,6 +34,13 @@ header #social-media {
   font-size: 2rem;
 }
 
+header #club-links {
+  position: absolute;
+  right: 2rem;
+  top: 6.75rem;
+  font-size: 2rem;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -44,15 +51,15 @@ li {
   padding-left: 0.5rem;
 }
 
-header #social-media a:link {
+header #social-media a:link, header #club-links a:link {
   color: #CEDDDD;
 }
 
-header #social-media a:visited {
+header #social-media a:visited, header #club-links a:visited {
   color: #CEDDDD;
 }
 
-header #social-media a:hover {
+header #social-media a:hover, header #club-links a:hover {
   color: #EC5979;
 }
 
@@ -168,4 +175,30 @@ h3.news-title {
 .about-item .image.impact {
   background-image: url('images/girlswhocode-loop.jpg');
   background-size: 90%;
+}
+
+#calendar, .slides {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.slides {
+  margin-bottom: 5rem;
+}
+
+#calendar table {
+  margin: 0 4rem;
+  border-collapse: collapse;
+  border: 1px solid #f26722;
+}
+
+#calendar table th, #calendar table td {
+  border: 1px solid #f26722;
+  padding: 0.25rem 0.75rem;
+}
+
+#calendar table tr.no-meeting {
+  background-color: #E1EAEA;
+  text-align: center;
 }
