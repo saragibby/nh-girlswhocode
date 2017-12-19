@@ -202,3 +202,7 @@ h3.news-title {
   background-color: #E1EAEA;
   text-align: center;
 }
+
+#resources li {
+  display: block;
+}
