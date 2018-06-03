@@ -51,6 +51,10 @@ li {
   padding-left: 0.5rem;
 }
 
+#companies li {
+  display: block;
+}
+
 header #social-media a:link, header #club-links a:link {
   color: #CEDDDD;
 }
@@ -106,7 +110,7 @@ h3.news-title {
   flex: 50%;
 }
 
-#map {
+#map, #map-detroit {
   height: 17rem;
   width: 100%;
 }
