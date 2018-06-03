@@ -1,0 +1,3 @@
+[submodule "monitors"]
+	path = monitors
+	url = git@github.com:saragibby/nh-girlswhocode-monitors.git
