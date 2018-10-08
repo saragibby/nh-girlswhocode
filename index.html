@@ -78,63 +78,25 @@
       career opportunites they never knew possible.
     </p>
 
-    <h3 class='news-title'>graduation</h3>
+    <h3 class='news-title'></h3>
     <div class='important-news'>
       <div class='when-where'>
         <h3>
-          <strong>Project Demo and Celebration!</strong>
-          <span class='emoji'>&#x1f38a;</span>
-          <span class='emoji'>&#x1f355;</span>
-          <span class='emoji'>&#x1F393;</span>
+          <strong>Info Meeting + Kickoff</strong>
         </h3>
         <p><strong>Where:</strong> New Haven High School, University Center</p>
-        <p><strong>Day:</strong> Tuesday June 5, 2018</p>
-        <p><strong>Time:</strong> 6:00pm - 7:00pm</p>
+        <p><strong>Day:</strong> Tuesday October 16, 2018</p>
+        <p><strong>Time:</strong> 2:30pm - 3:30pm</p>
         
         <p>
-          Food and beverages provided.
+          Time to kickoff a new year of coding! <span class='emoji'>&#x1f38a;</span>
           <br/><br/>
-          RSVP by Tuesday morning so we can order food.
-          <br/><br/>
-          Can RSVP through Remind, 
-          <a href="https://www.facebook.com/events/178070776238375/">Facebook Event Page</a>,
-          or shoot us en email <a href='mailto:nhgirlswhocode@gmail.com'>nhgirlswhocode@gmail.com</a>
+          Join us to hear about coding, careers in technology and learn
+          all about the New Haven High School Girls Who Code Club.
         </p>
       </div>
       <div class='location'>
         <div id="map"></div>
-      </div>
-    </div>
-
-    <h3 class='news-title'>field trip</h3>
-    <div class='important-news'>
-      <div class='when-where'>
-        <h3>
-          <strong>Tour of Detroit Tech Companies</strong>
-        </h3>
-        <p>
-          Opportunity to see local tech companies, the environment they work in, 
-          learn what they are creating with code and talk directly to professional 
-          software engineers. 
-          <br/><br/>
-          Companies include:
-          <ul id="companies">
-            <li><a href="https://www.detroitlabs.com/">Detroit Labs</a></li>
-            <li><a href="http://www.quikly.com">Quikly</a></li>
-            <li><a href="https://www.grandcircus.co/">Grand Circus</a></li>
-            <li><a href="https://opportunitydetroit.com/">Quicken / Opportunity Detroit</a></li>
-          </ul>
-        </p>
-        <a href="https://www.facebook.com/events/2115333798793296/">More Envent Info Here</a>
-        <p>
-          <strong>Where:</strong> Downtown Detroit</p>
-        <p>
-          <strong>Day:</strong> Friday June 8, 2018</p>
-        <p>
-          <strong>Time:</strong> Leave after school (10:30a), return to school 6:00pm</p>
-      </div>
-      <div class='location'>
-        <div id="map-detroit"></div>
       </div>
     </div>
 
@@ -194,21 +156,11 @@
     <footer>
       <script>
         function initMap() {
-          var detroit = { lat: 42.3335110923813, lng: -83.04828444075315 };
           var newHaven = { lat: 42.725493, lng: -82.790819 };
 
-          var detroitMap = new google.maps.Map(document.getElementById('map-detroit'), {
-            zoom: 15,
-            center: detroit
-          });
           var newHavenMap = new google.maps.Map(document.getElementById('map'), {
             zoom: 11,
             center: newHaven
-          });
-
-          var marker = new google.maps.Marker({
-            position: detroit,
-            map: detroitMap
           });
           var marker = new google.maps.Marker({
             position: newHaven,

@@ -87,6 +87,7 @@ p.about {
   margin: auto;
   padding: 1.5rem;
   border: 0.25rem dotted #f26722;
+  margin-top: 20px;
 }
 
 h3.news-title {
